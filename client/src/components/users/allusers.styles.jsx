@@ -30,6 +30,7 @@ export const ImageContainer = styled.div`
 export const Name = styled.h2`
     margin : 10px 0;
     font-size: 22px;
+    text-transform: capitalize;
 `
 
 export const Details = styled.h4`
