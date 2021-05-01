@@ -33,7 +33,7 @@ const Form = () => {
         fd.append('email', email)
         fd.append('phone', phone)
 
-        axios.post('http://localhost:5000/api/add-user',
+        axios.post('/api/add-user',
             fd, {
                 headers : {
                     'Content-Type':'multipart/form-data'

@@ -22,7 +22,7 @@ const UserComponent = () => {
       }
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/get-users')
+        axios.get('/api/get-users')
         .then(res => {
             setUsers(res.data)
             Notification('Success', "Welcome", 'success')
